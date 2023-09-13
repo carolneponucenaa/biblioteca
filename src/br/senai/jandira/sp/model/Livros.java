@@ -9,5 +9,7 @@ public class Livros {
     public String genero;
     public int ISBN;
 
+    boolean emprestado = false;
+
 }
 

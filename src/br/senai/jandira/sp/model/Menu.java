@@ -22,7 +22,8 @@ public class Menu {
             System.out.println("1 - Cadastrar Usuário");
             System.out.println("2 - Cadastrar Livro");
             System.out.println("3 - Consultar Livros:");
-            System.out.println("4 - Sair");
+            System.out.println("4 - Empréstimos:");
+            System.out.println("5 - Sair");
             System.out.println("/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-//-");
 
             int userOption = teclado.nextInt();
@@ -43,7 +44,11 @@ public class Menu {
                 case 3:
                     biblioteca.ConsultarLivro();
                     break;
+
                 case 4:
+                    cadastro.EmprestimoLivro();
+                    break;
+                case 5:
                     continuar = false;
                     break;
 
