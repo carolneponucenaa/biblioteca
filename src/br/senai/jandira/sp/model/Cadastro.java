@@ -21,18 +21,21 @@ public class Cadastro {
         usuarios.telefone = teclado.next();
         System.out.println("--------------- Usuários Cadastrado com Sucesso -----------------");
     }
-    public void CadastrarLivros(){
+    public Livros CadastrarLivros(){
         System.out.println("-------------- Cadastro De Livro ---------------- ");
         System.out.println("Informe o título do livro: ");
         livros.titulo = teclado.nextLine();
         System.out.println("Informe o gênero do livro: ");
-        livros.genero = teclado.next();
+        livros.genero = teclado.nextLine();
         System.out.println("Informe o autor do livro: ");
-       livros.autor= teclado.next();
+       livros.autor= teclado.nextLine();
         System.out.println("Informe o ISBN do livro (Código): ");
         livros.ISBN = teclado.nextInt();
         teclado.nextLine();
         System.out.println("--------------- Livro Cadastrado com Sucesso -----------------");
+
+    return livros;
+
     }
 
     }

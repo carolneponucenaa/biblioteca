@@ -4,8 +4,19 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Biblioteca {
-    public void AdicionarLivro(Livros Livros) {
-        List<Livros> livros = new ArrayList<>();
-        livros.add(Livros);
+
+    List<Livros> livros = new ArrayList<>();
+
+    public void AdicionarLivro(Livros livro) {
+
+        livros.add(livro);
+    }
+
+    public void ConsultarLivro() {
+        System.out.println("Os livros da lista são: ");
+        for (Livros livro : livros) {
+            System.out.println(livro.titulo);
+
+        }
     }
 }
