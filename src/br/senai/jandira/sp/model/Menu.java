@@ -36,8 +36,8 @@ public class Menu {
                     break;
 
                 case 2:
-                    Livros livros1 = cadastro.CadastrarLivros();
-                    biblioteca.AdicionarLivro(livros1);
+                    cadastro.CadastrarLivros(livros);
+                    biblioteca.AdicionarLivro(livros);
                     break;
 
                 case 3:

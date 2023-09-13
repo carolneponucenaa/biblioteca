@@ -21,7 +21,7 @@ public class Cadastro {
         usuarios.telefone = teclado.next();
         System.out.println("--------------- Usuários Cadastrado com Sucesso -----------------");
     }
-    public Livros CadastrarLivros(){
+    public void CadastrarLivros(Livros livros){
         System.out.println("-------------- Cadastro De Livro ---------------- ");
         System.out.println("Informe o título do livro: ");
         livros.titulo = teclado.nextLine();
@@ -34,7 +34,6 @@ public class Cadastro {
         teclado.nextLine();
         System.out.println("--------------- Livro Cadastrado com Sucesso -----------------");
 
-    return livros;
 
     }
 
