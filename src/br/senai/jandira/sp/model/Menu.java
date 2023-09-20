@@ -21,8 +21,8 @@ public class Menu {
             System.out.println("Escolha uma das opções:");
             System.out.println("1 - Cadastrar Usuário");
             System.out.println("2 - Cadastrar Livro");
-            System.out.println("3 - Consultar Livros:");
-            System.out.println("4 - Empréstimos:");
+            System.out.println("3 - Consultar Livros");
+            System.out.println("4 - Empréstimos");
             System.out.println("5 - Sair");
             System.out.println("/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-//-");
 

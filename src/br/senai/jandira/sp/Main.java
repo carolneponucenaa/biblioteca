@@ -10,7 +10,6 @@ public class Main {
 
         Menu menu = new Menu();
         menu.Menu();
-        Cadastro cadastro = new Cadastro();
 
 
 

@@ -16,7 +16,7 @@ public class Biblioteca {
         System.out.println("Os livros da lista são: ");
         for (Livros livro : livros) {
             System.out.println(livro.titulo);
-            System.out.println(livro.emprestado);
+
 
             }
 
